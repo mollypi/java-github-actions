@@ -10,7 +10,7 @@ env:
   
 jobs:
   test:
-      permissions:
+    permissions:
         security-events: write
     runs-on: ubuntu-latest
     steps:
